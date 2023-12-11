@@ -1,0 +1,19 @@
+---
+Name: secure-user-forms
+---
+SilverStripe\UserForms\Model\Submission\SubmittedFormField:
+  extensions:
+    - Ishannz\SecureUserForms\Extensions\SubmittedFormFieldExtension
+
+SilverStripe\UserForms\Model\Submission\SubmittedForm:
+  extensions:
+    - Ishannz\SecureUserForms\Extensions\SubmittedFormExtension
+
+DNADesign\ElementalUserForms\Control\ElementFormController:
+  extensions:
+    - Ishannz\SecureUserForms\Extensions\ElementFormControllerExtension
+
+DNADesign\ElementalUserForms\Model\ElementForm:
+  extensions:
+    - Ishannz\SecureUserForms\Extensions\ElementFormExtension
+
